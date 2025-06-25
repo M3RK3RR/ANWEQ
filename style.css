@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    width: 1920px;
+    height: 1024px;
+    background-color: #2A2118;
+}
+.header{
+    position: absolute;
+    height: 80px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #3B2D22;
+}
+.logo{
+    position: relative;
+    top: 15px;
+    left: 192px;
+}
+.navigation{
+    display: flex;
+    position: absolute;
+    width: 461px;
+    height: 20px;
+    left: 1251px;
+    right: 192px;
+    top: 30px;
+    bottom: 30px;
+    justify-content: space-between;
+    color: #E8D9C5;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.point{
+    cursor: pointer;
+}
+.main-container{
+    position: absolute;
+    width: 1537px;
+    height: 764px;
+    left: 192px;
+    right: 192px;
+    top: 170px;
+    bottom: 90px;
+    background-color: #4E3A2A;
+    border-radius: 10px;
+}
+.main-photo-hero{
+    position: absolute;
+    width: 943px;
+    height: 518px;
+    left: 94px;
+    right: 0;
+    top: 40px;
+    bottom: 0;
+    border-radius: 10px;
+}
+.photo-hero{
+    position: absolute;
+    width: 272px;
+    height: 680px;
+    left: 1165px;
+    right: 94px;
+    top: 42px;
+    bottom: 42px;
+}
+.text-hero{
+    position: absolute;
+    left: 94px;
+    top: 589px;
+    display: flex;
+    justify-content: center;
+    color: rgb(232, 217, 197);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: justify;
+}
+.text-hero-2{
+    position: absolute;
+    right: 389px;
+    bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(232, 217, 197);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 87px;
+    text-align: justify;
+}
